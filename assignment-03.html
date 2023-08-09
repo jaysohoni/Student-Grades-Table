@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="assignment-03.css">
+    <script src="assignment-03.js"></script>
+
+<head>
+
+    <title>CS230 Assignment 3</title>
+
+
+
+
+ <h1 class="title">CS230 assignment 3 - Student grades table</h1>
+
+</head>
+<body>
+
+    <table class="table" id="table" onkeyup="average()">
+
+       
+        <tr>
+            <th>Student Name</th>
+            <th>StudentID</th>
+
+            <th>Assignment 1</th>
+            <th>Assignment 2</th>
+            <th>Assignment 3</th>
+            <th>Assignment 4</th>
+            <th>Assignment 5</th>
+            <th>Average [%]</th>
+
+        </tr>
+        <tr>
+            <td contenteditable="false">James Smith</td>
+            <td contenteditable="false">123456789</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Ivan Rose</td>
+            <td contenteditable="false">0022368086</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Halle Meyer</td>
+            <td contenteditable="false">9780376976</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Cade Berg</td>
+            <td contenteditable="false">0201252926</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Laurence Quinn</td>
+            <td contenteditable="false">9198359015</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Duncan Thomson</td>
+            <td contenteditable="false">9561441192</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Murray Connor</td>
+            <td contenteditable="false">1543160193</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Hazel Willis</td>
+            <td contenteditable="false">8647228102</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Saba Cherry</td>
+            <td contenteditable="false">1803157155</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+        <tr>
+            <td contenteditable="false">Anya Donaldson</td>
+            <td contenteditable="false">9213083242</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="true">-</td>
+            <td contenteditable="false"></td>
+        </tr>
+
+
+
+
+
+
+
+
+    </table>
+    <p class="assignmentsNotSubmitted" id="AssignmentsNotSubmitted"></p>
+
+    <div class="buttonContainer">
+    <button onclick = "addStudent()">Add Student</button>
+    <button onclick = "addAssignment()">Add Assignment</button>
+    <button onclick = "saveTable()">Save Table</button>
+    <button onclick = "loadTable()">Load table from previously saved state</button>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

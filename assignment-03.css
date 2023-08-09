@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+}
+
+.table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: darkgray;
+  }
+
+th {
+    background-color: grey;
+    text-align: center;
+}
+
+td:nth-child(1), td:nth-child(2)  {
+    text-align: left;
+}
+
+.dashes {
+    text-align: center;
+    background-color: yellow;
+}
+
+.numbers {
+    text-align: right;
+}
+
+.lowgrade {
+    color: white;
+    background-color: red;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+.clickable {
+ cursor: pointer;
+}
+
+button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.title, .assignmentsNotSubmitted {
+    text-align: center;
+    font-weight: bold;
+}
+.buttonContainer {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
